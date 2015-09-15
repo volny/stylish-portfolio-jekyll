@@ -232,6 +232,11 @@ hr.small {
     }
 }
 
+/*disable custom maps scrolling behaviour*/
+.scrolloff {
+    pointer-events: none;
+}
+
 /* Footer */
 
 footer {
