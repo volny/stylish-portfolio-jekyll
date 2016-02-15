@@ -1,28 +1,31 @@
 # Site settings
-title:
-email:
+title: Welcome to Orlando The City Colorful
+email: jen@citycolorful.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to Orlando The City Colorful. Color your city with handdrawn illustrations by Jen Jedlicka!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://citycoloring.com" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
+owner: Jen Jedlicka
+email: jen@citycolorful.com
+facebook_username: jenjedlicka
+twitter_username: jenjedlicka
+instagram_username: jenjedlicka_art
 address:
-  - line:
-  - line:
+  - line: "Orlando, FL 32801"
   # Feel free to add more lines here 
-telephone:
-copyright:
+#telephone: (123) 456-7890
+copyright: CityColoring.com
 
 # API settings
-google_api_key:
+google_api_key: AIzaSyA8H0jVz_6Hc273rqNYKQ6AAiBvQfVKmYQ
+
+# analytics settings
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-73799357-1'
 
 # Build settings
 markdown: kramdown
