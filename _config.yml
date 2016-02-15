@@ -1,6 +1,6 @@
 # Site settings
-title: Stylish Portfolio
-email: your-email@domain.com
+title: title: Orlando The City Colorful
+email: jen@citycolorful.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -13,7 +13,7 @@ owner: Start Bootstrap
 email: name@example.com
 facebook_username: example
 twitter_username: example
-github_username: example
+instagram_username: jenjedlicka_art
 address:
   - line: 3481 Melrose Hill St
   - line: "Los Angeles, CA 90029"
