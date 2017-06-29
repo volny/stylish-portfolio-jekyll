@@ -173,6 +173,10 @@ hr.small {
     text-shadow: -1px 0px 5px rgba(0, 2, 0, 1);
 }
 
+#header-container {
+    vertical-align: top;
+}
+
 /* About */
 
 .about {
