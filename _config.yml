@@ -1,28 +1,28 @@
 # Site settings
-title:
-email:
+title: Stylish Portfolio
+email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
+owner: Start Bootstrap
+email: name@example.com
+facebook_username: example
+twitter_username: example
+github_username: example
 address:
-  - line:
-  - line:
+  - line: 3481 Melrose Hill St
+  - line: "Los Angeles, CA 90029"
   # Feel free to add more lines here 
-telephone:
-copyright:
+telephone: (123) 456-7890
+copyright: Your Site
 
 # API settings
-google_api_key:
+google_api_key: AIzaSyA8H0jVz_6Hc273rqNYKQ6AAiBvQfVKmYQ
 
 # Build settings
 markdown: kramdown
