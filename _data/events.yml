@@ -1,0 +1,10 @@
+events:
+  "My event":
+    - date: "2016-01-13"
+    - time: "20:32"
+    - description: "about my event..."
+  "Your event":
+    - title: "My event"
+    - date: "2016-01-13"
+    - time: "20:32"
+    - description: "about my event..."
