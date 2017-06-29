@@ -1,25 +1,25 @@
 # Site settings
-title: Stylish Portfolio
-email: your-email@domain.com
+title: Infinite Activities
+email: colin@infiniteactivities.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "infiniteactivities.com" # the base hostname & protocol for your site
 
 # User setting
-owner: Start Bootstrap
-email: name@example.com
-facebook_username: example
-twitter_username: example
-github_username: example
+owner: Colin Vatcher
+email: colin@infiniteactivities.com
+facebook_username: @infiniteactivities
+github_username: cvatch
 address:
-  - line: 3481 Melrose Hill St
-  - line: "Los Angeles, CA 90029"
+   -line: Innovation Works 
+  - line: 201 King Street
+  - line: "London, ON N6A 1C9"
   # Feel free to add more lines here 
-telephone: (123) 456-7890
-copyright: Your Site
+telephone: 519-520-6658
+copyright: Infinite Activities
 
 # API settings
 google_api_key: AIzaSyA8H0jVz_6Hc273rqNYKQ6AAiBvQfVKmYQ
