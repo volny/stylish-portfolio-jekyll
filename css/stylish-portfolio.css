@@ -163,7 +163,14 @@ hr.small {
 }
 
 .header-text {
-    color: #ffffff
+    font-family: Convergence;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    line-height: 50px;
+    color: ffffff
+    text-shadow: -1px 0px 5px rgba(0, 2, 0, 1);
 }
 
 /* About */
