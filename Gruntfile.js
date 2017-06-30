@@ -30,15 +30,6 @@ module.exports = function (grunt) {
     // need this
     this.requires(['build']);
 
-    // only deploy under these conditions
-    if (process.env.TRAVIS === 'true' && process.env.TRAVIS_SECURE_ENV_VARS === 'true' && process.env.TRAVIS_PULL_REQUEST === 'false') {
-      grunt.log.writeln('executing deployment');
-      // queue deploy
-      grunt.task.run('gh-pages:deploy');
-    }
-    else {
-      grunt.log.writeln('skipped deployment');
-    }
   });
 
   grunt.registerTask('prep', 'Clean-up project', [
