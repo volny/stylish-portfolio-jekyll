@@ -20,14 +20,6 @@ module.exports = function (grunt) {
       deploy: ['public/**/*']
     },
     markdown: {
-      options: {
-        template: './template/page.html',
-        templateContext: {
-          title: '<%=pkg.name%>',
-          description: '<%=pkg.description%>',
-          author: '<%=pkg.author.name%>',
-          date: new Date().toISOString()
-        },
         markdownOptions: {
           gfm: true,
           highlight: 'auto'
@@ -45,7 +37,7 @@ module.exports = function (grunt) {
       },
       publish: {
         options: {
-          repo: 'https://github.com/Bartvds/demo-travis-gh-pages.git',
+          repo: 'https://github.com/cvatch/cvatch.github.io.git',
           message: 'publish gh-pages (cli)'
         },
         src: ['**/*']
@@ -53,10 +45,10 @@ module.exports = function (grunt) {
       deploy: {
         options: {
           user: {
-            name: 'demo-travis-gh-pages',
-            email: 'bartvanderschoor@gmail.com'
+            name: 'kirkins',
+            email: 'kirkins@gmail.com'
           },
-          repo: 'https://' + process.env.GH_TOKEN + '@github.com/Bartvds/demo-travis-gh-pages.git',
+          repo: 'https://' + process.env.GH_TOKEN + '@github.com/cvatch/cvatch.github.io.git',
           message: 'publish gh-pages (auto)' + getDeployMessage(),
           silent: true
         },
