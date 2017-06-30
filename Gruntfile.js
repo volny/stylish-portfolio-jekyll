@@ -23,49 +23,8 @@ module.exports = function (grunt) {
         src: 'README.md',
         dest: 'public/index.html'
       }
-    },
-    'gh-pages': {
-      options: {
-        branch: 'gh-pages',
-        base: 'public'
-      },
-      publish: {
-        options: {
-          repo: 'https://github.com/cvatch/cvatch.github.io.git',
-          message: 'publish gh-pages (cli)'
-        },
-        src: ['**/*']
-      },
-      deploy: {
-        options: {
-          user: {
-            name: 'kirkins',
-            email: 'kirkins@gmail.com'
-          },
-          repo: 'https://' + process.env.GH_TOKEN + '@github.com/cvatch/cvatch.github.io.git',
-          message: 'publish gh-pages (auto)' + getDeployMessage(),
-          silent: true
-        },
-        src: ['**/*']
-      }
     }
   });
-
-  // get a formatted commit message to review changes from the commit log
-  // github will turn some of these into clickable links
-  function getDeployMessage() {
-    var ret = '\n\n';
-    if (process.env.TRAVIS !== 'true') {
-      ret += 'missing env vars for travis-ci';
-      return ret;
-    }
-    ret += 'branch:       ' + process.env.TRAVIS_BRANCH + '\n';
-    ret += 'SHA:          ' + process.env.TRAVIS_COMMIT + '\n';
-    ret += 'range SHA:    ' + process.env.TRAVIS_COMMIT_RANGE + '\n';
-    ret += 'build id:     ' + process.env.TRAVIS_BUILD_ID  + '\n';
-    ret += 'build number: ' + process.env.TRAVIS_BUILD_NUMBER + '\n';
-    return ret;
-  }
 
   grunt.registerTask('check-deploy', function() {
     // need this
