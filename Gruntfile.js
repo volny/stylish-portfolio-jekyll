@@ -1,20 +1,13 @@
 'use strict';
 
-/*jshint -W003*/
-
 module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-markdown');
   grunt.loadNpmTasks('grunt-gh-pages');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    jshint: {
-      options: grunt.file.readJSON('.jshintrc'),
-      all: ['Gruntfile.js', 'js/custom.js']
-    },
     clean: {
       tmp: ['tmp/**/*'],
       deploy: ['public/**/*']
@@ -90,8 +83,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('prep', 'Clean-up project', [
-    'clean',
-    'jshint'
+    'clean'
   ]);
 
   grunt.registerTask('build', 'Rebuild locally', [
