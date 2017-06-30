@@ -168,7 +168,6 @@ hr.small {
     font-variant: small-caps;
     font-weight: bold;
     line-height: 50px;
-    padding-top: 75px;
     color: #fff;
     text-shadow: -1px 0px 5px rgba(0, 2, 0, 1);
 }
@@ -183,6 +182,7 @@ h3.header-text {
 
 #header-container {
     vertical-align: top;
+    padding-top: 75px;
 }
 
 /* About */
