@@ -164,7 +164,6 @@ hr.small {
 
 .header-text {
     font-family: Convergence;
-    font-size: 75px;
     font-style: normal;
     font-variant: small-caps;
     font-weight: bold;
@@ -172,6 +171,14 @@ hr.small {
     padding-top: 75px;
     color: #fff;
     text-shadow: -1px 0px 5px rgba(0, 2, 0, 1);
+}
+
+h1.header-text {
+    font-size: 75px;
+}
+
+h3.header-text {
+    font-size: 40px;
 }
 
 #header-container {
