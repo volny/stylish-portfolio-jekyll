@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.10'
+before_install:
+- npm install -g grunt-cli
+script:
+- grunt deploy
+branches:
+  only:
+  - master
+env:
+  global:
+    secure: "FvB2PnPkWRI6ge055ZP0uKiAhLlpsftuRUA1BYKkw/2Z9b/jx76V0eUfCYo5ELBHlhXautWm8b0MI6hIlkaXutmQPa3C8pv+MJCR0xUm59zboxqFmONG3NOMo2hxWawMJoPTOMX1sn78QIeCb1N0PYsvoiF4zWwUer+nVPiCQwnMT2QPzBAmXXBnLIcuOLXZP2fYZCaFrj0/3SjQ1j7eWvmd1hhm1JeSUOB7xI2Lw+5HOcOWSog3JmiSPyaiaIJ2a1mE/PLzcQQTlTj+mx74YPFLWUzb6ysofxfWEY9cAzKIp13g4OMfmBZk7ZX2K/xseZ8mJ0mBMktGbPzrQwqDV8fAFx1zXHIAakKUkndubQdFFmdXVbPS/5vvoXPbBqOXEJnyFwiK0KJCBrZanm9UxEhG25oKYzlfN3tja3crEmHMUNE7XYa9Fkt8yDv2YL80tIMoVGqZiNbIBrzSDTfAxceBdqFwF9Edd/8DCRWLF/M/FP/0iW2T8PeBY9WKRfHEOMBIwUqYxwk3fYptfQm3RHpxSL3++gEA6XsrE96u8WlhEYg0TlQ54mfWt7jA9lxAJ7c3HraCGI5yhiJ3zoLW607iyJ6eVre734Q6Bj9CyJnAhK0+aOTCF4E5QEtLPzczEEFx0wJIGm0g2nInIAezRn5ChexyKmaAZCd/GpOaoKQ="
