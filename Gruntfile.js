@@ -20,6 +20,7 @@ module.exports = function (grunt) {
       deploy: ['public/**/*']
     },
     markdown: {
+      options: {
         markdownOptions: {
           gfm: true,
           highlight: 'auto'
@@ -30,7 +31,7 @@ module.exports = function (grunt) {
         dest: 'public/index.html'
       }
     },
-    'gh-pages': {
+    "gh-pages": {
       options: {
         branch: 'gh-pages',
         base: 'public'
