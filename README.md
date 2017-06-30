@@ -1,4 +1,4 @@
-# Infinite Activities Website
+# ∞ Infinite Activities Website
 
 This is the code for the official Infinite Activities website.
 
