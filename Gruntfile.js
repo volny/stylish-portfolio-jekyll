@@ -20,6 +20,7 @@ module.exports = function (grunt) {
       deploy: ['public/**/*']
     },
     markdown: {
+      options: {
         markdownOptions: {
           gfm: true,
           highlight: 'auto'
