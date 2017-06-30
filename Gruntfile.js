@@ -30,7 +30,7 @@ module.exports = function (grunt) {
         dest: 'public/index.html'
       }
     },
-    gh-pages: {
+    'gh-pages': {
       options: {
         branch: 'gh-pages',
         base: 'public'
