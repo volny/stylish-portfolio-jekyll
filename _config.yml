@@ -14,11 +14,11 @@ email:
 facebook_username:
 twitter_username:
 github_username:
-address: "405 Main Street Houston"
+address: 
   - line:
   - line:
   # Feel free to add more lines here 
-telephone: "(713) 223-9800"
+telephone: 
 copyright:
 
 # API settings
