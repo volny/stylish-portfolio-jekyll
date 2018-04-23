@@ -17,7 +17,7 @@ body {
 }
 
 .text-primary {
-    color: #5eb733;
+    color: #5eb733 !important;;
 }
 
 .bg-primary {
