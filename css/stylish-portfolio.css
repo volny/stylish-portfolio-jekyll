@@ -16,6 +16,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.text-primary {
+    color: #5eb733;
+}
+
 .bg-primary {
   color: #fff;
   background-color: #ed4426;
