@@ -165,8 +165,8 @@ hr.small {
 .header {
     display: table;
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     background: url(../img/bcg.jpg)  !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
