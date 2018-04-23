@@ -21,6 +21,10 @@ body {
   background-color: #ed4426;
 }
 
+.text-primary {
+  color: #ed4426;
+}
+
 
 .text-vertical-center {
     display: table-cell;
