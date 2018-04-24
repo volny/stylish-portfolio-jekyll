@@ -11,13 +11,13 @@ url: "" # the base hostname & protocol for your site
 # User setting
 owner:
 email: info@techusi.com
-facebook_username:
-twitter_username:
-github_username:
+#facebook_username:
+#twitter_username:
+#github_username:
 address:
   - line: 405 Main Street Ste 514
   - line: Houston, TX 77002
-  - line:
+
   # Feel free to add more lines here
 telephone: (713) 223-9800
 copyright:
