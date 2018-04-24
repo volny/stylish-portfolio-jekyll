@@ -1,6 +1,6 @@
 <section id="map" class="map">
   <iframe id="map_iframe"
-    width="100%"
+    width="50%"
     height="100%"
     frameborder="0"
     scrolling="no"
@@ -11,13 +11,15 @@
   </iframe>
   <br>
   <small id="map_iframe"
-    width="100%"
-    height="100%"
+    width="50%"
+    height="50%"
     frameborder="0"
     scrolling="no"
     marginheight="0"
     marginwidth="0"
     src="https://maps.google.com/maps/embed/v1/place?key={{ site.google_api_key }}&q={% for address in site.address %}{{ address.line }},{% endfor %}"
     allowfullscreen>
-  </small>
-</section>
+
+
+    </small>
+      </section>
