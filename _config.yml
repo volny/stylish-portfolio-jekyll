@@ -15,11 +15,11 @@ facebook_username:
 twitter_username:
 github_username:
 address:
-  - line: 405 Main Street
-  - line: Ste 514
+  - line: 405 Main Street Ste 514
   - line: Houston, TX 77002
+  - line:
   # Feel free to add more lines here
-telephone:
+telephone: (713) 223 9800
 copyright:
 
 # API settings
