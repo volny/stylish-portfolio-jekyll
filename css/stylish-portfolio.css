@@ -71,6 +71,11 @@ section#map {
       position: right;
 }
 
+.panel-group {
+    margin-bottom: 20px;
+
+}
+
 section#team {
   background-color: #ed4426
 
