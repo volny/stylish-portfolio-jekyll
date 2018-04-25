@@ -28,6 +28,14 @@ section#contact  {
 
 }
 
+
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
 section#contact .row {
   width: 100%;
   margin-right: 10px;
