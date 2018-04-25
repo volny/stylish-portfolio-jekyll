@@ -43,12 +43,16 @@ section#contact .row {
   position: center;
 
 }
+
 section#contact .container {
   width: 100% !important;
 }
 
 
+section#team {
+  background-color: #ed4426
 
+}
 section#map {
       width: 50%;
 
