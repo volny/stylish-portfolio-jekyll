@@ -37,9 +37,9 @@ section#contact  {
 }
 
 section#contact .row {
-  width: 50%;
-  margin-right: 10px;
-  margin-left: 13px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
   position: left;
 
 }
