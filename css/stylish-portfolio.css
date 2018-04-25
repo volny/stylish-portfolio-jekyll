@@ -28,6 +28,18 @@ section#contact  {
 
 }
 
+.text-muted {
+    color: #fff;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 140px/1 FontAwesome;
+    font-size: 25px !important;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 .ml-auto, .mx-auto {
     margin-left: auto!important;
@@ -42,6 +54,13 @@ section#contact .row {
   margin-left: 0px;
   position: left;
 
+}
+
+section#team .container {
+    padding-right: 15px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 section#contact .container {
