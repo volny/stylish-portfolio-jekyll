@@ -22,7 +22,18 @@ section#contact {
     background-color: #212529;
     background-image: url(../img/map-image.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
+
+
+}
+
+
+
+
+section#map {
+      width: 50%;
+
+
 }
 
 .text-primary {
@@ -246,6 +257,8 @@ hr.small {
 
 .map {
     height: 500px;
+
+
 }
 
 @media(max-width:768px) {
@@ -254,10 +267,20 @@ hr.small {
     }
 }
 
+
+.contact {
+
+    .row {
+        width: 80%;
+        margin-right: 4px;
+        margin-left: 20px;
+        }
+}
 /*disable custom maps scrolling behaviour*/
 .scrolloff {
     pointer-events: none;
 }
+
 
 /* Footer */
 
