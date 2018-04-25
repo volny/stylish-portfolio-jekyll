@@ -44,6 +44,12 @@ section#map {
 
 }
 
+@media (min-width: 992px) {
+.col-md-3 {
+    width: 50%;
+}
+}
+
 .text-primary {
     color: #22333b !important;
 }
