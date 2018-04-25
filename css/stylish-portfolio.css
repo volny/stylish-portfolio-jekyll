@@ -94,8 +94,8 @@ section#map {
 
 .btn-light {
     border-radius: 0;
-    color: #595959;
-    background-color: rgb(255,255,255);
+    color: #fff;
+    background-color: #595959;
 }
 
 .btn-light:hover,
