@@ -23,7 +23,7 @@ section#contact  {
     background-image: url(../img/map-image.png);
     background-repeat: no-repeat;
     background-position: left;
-    width: 50%;
+    width:;
     position: center;
 
 }
@@ -51,11 +51,11 @@ section#contact .container {
 
 section#team {
   background-color: #ed4426
-  
+
 
 }
 section#map {
-      width: 50%;
+      width:;
 
 
 }
