@@ -24,12 +24,15 @@ section#contact  {
     background-repeat: no-repeat;
     background-position: left;
     width: 50%;
+    position: center;
+
 }
 
 section#contact .row {
   width: 100%;
   margin-right: 10px;
   margin-left: 13px;
+  position: center;
 
 }
 section#contact .container {
