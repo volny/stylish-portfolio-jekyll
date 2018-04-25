@@ -37,10 +37,10 @@ section#contact  {
 }
 
 section#contact .row {
-  width: 100%;
+  width: 50%;
   margin-right: 10px;
   margin-left: 13px;
-  position: center;
+  position: left;
 
 }
 
@@ -49,6 +49,7 @@ section#contact .container {
 }
 section#map {
       width:50%;
+      position: right;
 }
 
 section#team {
