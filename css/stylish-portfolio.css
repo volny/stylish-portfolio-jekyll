@@ -9,7 +9,7 @@
 html,
 body {
     width: 100%;
-    height: 1000%;
+    height: 100%;
     color: #fff;
 }
 
@@ -18,15 +18,23 @@ body {
     background-color: #22333b;
 }
 
-section#contact {
+section#contact  {
     background-color: #212529;
     background-image: url(../img/map-image.png);
     background-repeat: no-repeat;
     background-position: left;
-
-
+    width: 50%;
 }
 
+section#contact .row {
+  width: 100%;
+  margin-right: 10px;
+  margin-left: 13px;
+
+}
+section#contact .container {
+  width: 100% !important;
+}
 
 
 
@@ -268,13 +276,10 @@ hr.small {
 }
 
 
-.contact {
-
-    .row {
-        width: 80%;
-        margin-right: 4px;
-        margin-left: 20px;
-        }
+.contact > .row {
+  width: 80%;
+  margin-right: 4px;
+  margin-left: 20px;
 }
 /*disable custom maps scrolling behaviour*/
 .scrolloff {
