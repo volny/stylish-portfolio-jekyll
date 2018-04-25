@@ -49,10 +49,10 @@ section#contact  {
 }
 
 section#contact .row {
-  width: 100%;
+  width: 50%;
   margin-right: 10px;
   margin-left: 13px;
-  position: center;
+  position: left;
 
 }
 
@@ -64,26 +64,20 @@ section#team .container {
 }
 
 section#contact .container {
-  width: 100% !important;
+  width: 50% !important;
 }
-
+section#map {
+      width:50%;
+      position: right;
+}
 
 section#team {
   background-color: #ed4426
 
 
 }
-section#map {
-      width:;
 
 
-}
-
-@media (min-width: 992px) {
-.col-md-3 {
-    width: 50%;
-}
-}
 
 .text-primary {
     color: #22333b !important;
