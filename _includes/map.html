@@ -6,6 +6,7 @@
     scrolling="no"
     marginheight="0"
     marginwidth="0"
+    position = right
     src="https://maps.google.com/maps/embed/v1/place?key={{ site.google_api_key }}&q={% for address in site.address %}{{ address.line }},{% endfor %}"
     allowfullscreen>
   </iframe>
@@ -17,7 +18,14 @@
     scrolling="no"
     marginheight="0"
     marginwidth="0"
+    position = right
     src="https://maps.google.com/maps/embed/v1/place?key={{ site.google_api_key }}&q={% for address in site.address %}{{ address.line }},{% endfor %}"
     allowfullscreen>
-  </small>
+    </small>
 </section>
+
+
+<div class="row">
+  <div class="column"></div>
+  <div class="column"></div>
+</div>

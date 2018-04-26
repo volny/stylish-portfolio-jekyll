@@ -1,0 +1,30 @@
+{
+  "name": "ideal-image-slider",
+  "version": "1.5.1",
+  "description": "Quite simply the ideal Image Slider in vanilla JS.",
+  "keywords": [
+    "ideal",
+    "image",
+    "slider"
+  ],
+  "author": "Gilbert Pellegrom",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilbitron/Ideal-Image-Slider.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-string-replace": "^0.2.7",
+    "jshint-stylish": "^0.4.0",
+    "load-grunt-tasks": "^0.6.0",
+    "grunt-contrib-qunit": "~0.7.0",
+    "qunitjs": "~1.19.0"
+  }
+}
