@@ -53,6 +53,7 @@ section#contact .row {
   margin-right: 0px;
   margin-left: 0px;
   position: left;
+  padding-bottom: 10px;
 
 }
 
@@ -158,6 +159,12 @@ hr.small {
     -ms-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #595959;
+    border-color: #3c3b3b;
 }
 
 .sidebar-nav {

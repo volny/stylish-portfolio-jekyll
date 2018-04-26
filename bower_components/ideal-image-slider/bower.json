@@ -1,0 +1,22 @@
+{
+  "name": "ideal-image-slider",
+  "main": "ideal-image-slider.js",
+  "homepage": "https://github.com/gilbitron/Ideal-Image-Slider",
+  "authors": [
+    "Gilbert Pellegrom <gilbert@pellegrom.me>"
+  ],
+  "description": "Quite simply the ideal Image Slider in vanilla JS",
+  "keywords": [
+    "image",
+    "slider",
+    "javascript",
+    "vanilla"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ]
+}
