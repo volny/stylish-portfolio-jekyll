@@ -3,9 +3,17 @@
 
   {% include head.html %}
 
+
+
+
+
 <body>
+  <script src="/bower_components/ideal-image-slider/ideal-image-slider.js"></script>
+
 
   {% include navigation.html %}
+
+
   {% include header.html %}
   {% include about.html %}
   {% include services.html %}
@@ -18,6 +26,13 @@
   {% include scripts.html %}
 
 
+
+
+
+  <script>
+	var slider = new IdealImageSlider.Slider('#slider');
+	slider.start();
+	</script>
 
 </body>
 

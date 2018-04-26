@@ -1,4 +1,6 @@
-# Site settings
+image_sliders:
+  - example_slider
+
 title:
 email: info@techuis.com
 description: > # this means to ignore newlines until "baseurl:"
