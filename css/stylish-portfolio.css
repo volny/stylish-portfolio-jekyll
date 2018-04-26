@@ -239,8 +239,16 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
+
 }
 
+code, kbd, pre, samp {
+    font-family: monserrat;
+    text-align: left;
+    word-break: normal;
+    word-wrap: normal;
+}
 
 
 /* About */
