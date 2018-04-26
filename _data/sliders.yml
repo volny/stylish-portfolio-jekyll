@@ -11,3 +11,4 @@
   settings:
     height: "'auto'"
     effect: "'fade'"
+    transitionDuration: 10
